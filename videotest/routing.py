@@ -1,4 +1,4 @@
-# chat/routing.py
+# videotest/routing.py
 from django.urls import re_path
 import video.consumers
 

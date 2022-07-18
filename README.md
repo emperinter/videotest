@@ -1,5 +1,6 @@
 ![show_send_photo](https://user-images.githubusercontent.com/20177836/179466119-7b9b0082-2da5-4205-9777-e5197360da07.png)
 
+[English](https://github.com/emperinter/videotest/blob/master/README.md) | [中文](https://github.com/emperinter/videotest/blob/master/README_CN.md)
 
 # Description
 
