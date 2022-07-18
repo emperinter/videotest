@@ -1,0 +1,322 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Sun Jul 17 14:15:34 2022] ***
+compiled with version: 9.4.0 on 17 July 2022 06:14:02
+os: Linux-5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022
+nodename: lover
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /mnt/d/PROJECT/videotest
+writing pidfile to uwsgi.pid
+detected binary path: /home/emperinter/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /mnt/d/PROJECT/videotest
+your processes number limit is 31320
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8000 fd 3
+Python version: 3.8.10 (default, Jun 22 2022, 20:18:18)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55ebaeecde50
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55ebaeecde50 pid: 3845 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3845)
+spawned uWSGI worker 1 (pid: 3847, cores: 1)
+spawned uWSGI worker 2 (pid: 3848, cores: 1)
+spawned uWSGI worker 3 (pid: 3849, cores: 1)
+spawned uWSGI worker 4 (pid: 3850, cores: 1)
+*** Starting uWSGI 2.0.20 (64bit) on [Sun Jul 17 14:15:41 2022] ***
+compiled with version: 9.4.0 on 17 July 2022 06:14:02
+os: Linux-5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022
+nodename: lover
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /mnt/d/PROJECT/videotest
+writing pidfile to uwsgi.pid
+detected binary path: /home/emperinter/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /mnt/d/PROJECT/videotest
+your processes number limit is 31320
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8000).
+bind(): Address already in use [core/socket.c line 769]
+Sun Jul 17 08:18:14 2022 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 17 08:18:14 2022 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.20 (64bit) on [Sun Jul 17 16:59:26 2022] ***
+compiled with version: 9.4.0 on 17 July 2022 06:14:02
+os: Linux-5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022
+nodename: lover
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /mnt/d/PROJECT/videotest
+writing pidfile to uwsgi.pid
+detected binary path: /home/emperinter/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /mnt/d/PROJECT/videotest
+your processes number limit is 31320
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8000 fd 3
+Python version: 3.8.10 (default, Jun 22 2022, 20:18:18)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x55f753b55d30
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364520 bytes (355 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55f753b55d30 pid: 4194 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4194)
+spawned uWSGI worker 1 (pid: 4196, cores: 1)
+spawned uWSGI worker 2 (pid: 4197, cores: 1)
+spawned uWSGI worker 3 (pid: 4198, cores: 1)
+spawned uWSGI worker 4 (pid: 4199, cores: 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+Sun Jul 17 09:01:57 2022 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 17 09:01:57 2022 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 17 09:01:57 2022 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 17 09:01:57 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.20 (64bit) on [Sun Jul 17 17:02:20 2022] ***
+compiled with version: 9.4.0 on 17 July 2022 06:14:02
+os: Linux-5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022
+nodename: lover
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /mnt/d/PROJECT/videotest
+writing pidfile to uwsgi.pid
+detected binary path: /home/emperinter/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /mnt/d/PROJECT/videotest
+your processes number limit is 31320
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8000 fd 3
+Python version: 3.8.10 (default, Jun 22 2022, 20:18:18)  [GCC 9.4.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x556dbb3a2d90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 671715 bytes (655 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x556dbb3a2d90 pid: 4239 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4239)
+spawned uWSGI worker 1 (pid: 4241, cores: 1)
+spawned uWSGI worker 2 (pid: 4242, cores: 1)
+spawned uWSGI worker 3 (pid: 4243, cores: 1)
+spawned uWSGI worker 4 (pid: 4244, cores: 1)
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+uwsgi_proto_uwsgi_parser(): Success [proto/uwsgi.c line 40]
+Not Found: /
+[pid: 4241|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 905 bytes} [Sun Jul 17 09:05:46 2022] GET / => generated 2166 bytes in 61 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4243|app: 0|req: 1/2] 127.0.0.1 () {50 vars in 846 bytes} [Sun Jul 17 09:05:46 2022] GET /favicon.ico => generated 2217 bytes in 46 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 4241|app: 0|req: 2/3] 127.0.0.1 () {52 vars in 915 bytes} [Sun Jul 17 09:05:53 2022] GET /video => generated 0 bytes in 0 msecs (HTTP/1.1 301) 5 headers in 175 bytes (1 switches on core 0)
+Internal Server Error: /video/
+Traceback (most recent call last):
+  File "/home/emperinter/.local/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/emperinter/.local/lib/python3.8/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/d/PROJECT/videotest/./video/views.py", line 8, in index
+    return render(request, 'video/index.html')
+  File "/home/emperinter/.local/lib/python3.8/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/emperinter/.local/lib/python3.8/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/home/emperinter/.local/lib/python3.8/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: video/index.html
+[pid: 4243|app: 0|req: 2/4] 127.0.0.1 () {52 vars in 917 bytes} [Sun Jul 17 09:05:53 2022] GET /video/ => generated 69325 bytes in 78 msecs (HTTP/1.1 500) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 1/5] 127.0.0.1 () {52 vars in 923 bytes} [Sun Jul 17 09:06:35 2022] GET /video/wms => generated 0 bytes in 38 msecs (HTTP/1.1 301) 5 headers in 179 bytes (1 switches on core 0)
+[pid: 4243|app: 0|req: 3/6] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:06:35 2022] GET /video/wms/ => generated 819 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 2/7] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:06:42 2022] GET /video/wms/ => generated 819 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 3/8] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:15:24 2022] GET /video/wms/ => generated 819 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4244|app: 0|req: 4/9] 127.0.0.1 () {50 vars in 856 bytes} [Sun Jul 17 09:15:24 2022] GET /favicon.ico => generated 2217 bytes in 16 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 4243|app: 0|req: 4/10] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:15:26 2022] GET /video/wms/ => generated 819 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4244|app: 0|req: 5/11] 127.0.0.1 () {50 vars in 856 bytes} [Sun Jul 17 09:15:26 2022] GET /favicon.ico => generated 2217 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 4243|app: 0|req: 5/12] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:15:26 2022] GET /video/wms/ => generated 819 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4243|app: 0|req: 6/13] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:15:27 2022] GET /video/wms/ => generated 819 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4243|app: 0|req: 7/14] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:15:28 2022] GET /video/wms/ => generated 819 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4243|app: 0|req: 8/15] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:15:28 2022] GET /video/wms/ => generated 819 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 6/16] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:15:29 2022] GET /video/wms/ => generated 819 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 7/17] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:15:30 2022] GET /video/wms/ => generated 819 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 8/18] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:16:21 2022] GET /video/wms/ => generated 819 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 9/19] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:16:22 2022] GET /video/wms/ => generated 819 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 10/20] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:16:22 2022] GET /video/wms/ => generated 819 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 11/21] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:16:44 2022] GET /video/wms/ => generated 819 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 12/22] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:19:45 2022] GET /video/wms/ => generated 817 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4244|app: 0|req: 13/23] 127.0.0.1 () {50 vars in 856 bytes} [Sun Jul 17 09:19:46 2022] GET /favicon.ico => generated 2217 bytes in 6 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 14/24] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:20:36 2022] GET /video/wms/ => generated 817 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 15/25] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:21:30 2022] GET /video/wms/ => generated 817 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 16/26] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:25:45 2022] GET /video/wms/ => generated 817 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4244|app: 0|req: 17/27] 127.0.0.1 () {50 vars in 856 bytes} [Sun Jul 17 09:25:46 2022] GET /favicon.ico => generated 2217 bytes in 5 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 18/28] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:26:25 2022] GET /video/wms/ => generated 817 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 19/29] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:26:39 2022] GET /video/wms/ => generated 817 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 20/30] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:29:52 2022] GET /video/wms/ => generated 819 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 21/31] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:30:35 2022] GET /video/wms/ => generated 803 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 22/32] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:31:13 2022] GET /video/wms/ => generated 822 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 23/33] 127.0.0.1 () {50 vars in 906 bytes} [Sun Jul 17 09:36:04 2022] GET /video/wms/ => generated 822 bytes in 9 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 24/34] 127.0.0.1 () {52 vars in 925 bytes} [Sun Jul 17 09:38:02 2022] GET /video/wms/ => generated 822 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4244|app: 0|req: 25/35] 127.0.0.1 () {50 vars in 856 bytes} [Sun Jul 17 09:38:03 2022] GET /favicon.ico => generated 2217 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 26/36] 127.0.0.1 () {52 vars in 921 bytes} [Sun Jul 17 09:43:44 2022] GET /video/wms/ => generated 822 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 27/37] 127.0.0.1 () {52 vars in 921 bytes} [Sun Jul 17 09:48:07 2022] GET /video/wms/ => generated 822 bytes in 8 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+[pid: 4244|app: 0|req: 28/38] 127.0.0.1 () {50 vars in 902 bytes} [Sun Jul 17 09:54:02 2022] GET /video/wms/ => generated 822 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Sun Jul 17 10:14:27 2022 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 17 10:14:27 2022 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 17 10:14:27 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 17 10:14:27 2022 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.20 (64bit) on [Sun Jul 17 18:16:01 2022] ***
+compiled with version: 9.4.0 on 17 July 2022 06:14:02
+os: Linux-5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022
+nodename: lover
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /mnt/d/PROJECT/videotest
+writing pidfile to uwsgi.pid
+detected binary path: /home/emperinter/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /mnt/d/PROJECT/videotest
+your processes number limit is 31320
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8000 fd 3
+Python version: 3.8.10 (default, Jun 22 2022, 20:18:18)  [GCC 9.4.0]
+Python main interpreter initialized at 0x559e6f9bfdd0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 3149820 bytes (3075 KB) for 32 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x559e6f9bfdd0 pid: 4649 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 4649)
+spawned uWSGI worker 1 (pid: 4651, cores: 4)
+spawned uWSGI worker 2 (pid: 4652, cores: 4)
+spawned uWSGI worker 3 (pid: 4659, cores: 4)
+spawned uWSGI worker 4 (pid: 4660, cores: 4)
+spawned uWSGI worker 5 (pid: 4661, cores: 4)
+spawned uWSGI worker 6 (pid: 4665, cores: 4)
+spawned uWSGI worker 7 (pid: 4674, cores: 4)
+spawned uWSGI worker 8 (pid: 4676, cores: 4)
+[pid: 4674|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 921 bytes} [Sun Jul 17 10:17:03 2022] GET /video/wms/ => generated 822 bytes in 63 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4674|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 852 bytes} [Sun Jul 17 10:17:03 2022] GET /favicon.ico => generated 2217 bytes in 20 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
+[pid: 4676|app: 0|req: 1/3] 127.0.0.1 () {52 vars in 921 bytes} [Sun Jul 17 10:23:42 2022] GET /video/wms/ => generated 822 bytes in 57 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 4676|app: 0|req: 2/4] 127.0.0.1 () {50 vars in 852 bytes} [Sun Jul 17 10:23:42 2022] GET /favicon.ico => generated 2217 bytes in 24 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 2)
+[pid: 4676|app: 0|req: 3/5] 127.0.0.1 () {50 vars in 902 bytes} [Sun Jul 17 10:25:08 2022] GET /video/wms/ => generated 822 bytes in 7 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 3)
+Not Found: /favicon.ico
+[pid: 4674|app: 0|req: 3/6] 127.0.0.1 () {50 vars in 852 bytes} [Sun Jul 17 10:25:08 2022] GET /favicon.ico => generated 2217 bytes in 12 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 2)
+[pid: 4674|app: 0|req: 4/7] 127.0.0.1 () {50 vars in 902 bytes} [Sun Jul 17 10:25:29 2022] GET /video/wms/ => generated 822 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 1)
+[pid: 4676|app: 0|req: 4/8] 127.0.0.1 () {50 vars in 902 bytes} [Sun Jul 17 11:32:01 2022] GET /video/wms/ => generated 822 bytes in 12 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 1)
+Not Found: /favicon.ico
+[pid: 4674|app: 0|req: 5/9] 127.0.0.1 () {50 vars in 852 bytes} [Sun Jul 17 11:32:01 2022] GET /favicon.ico => generated 2217 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 3)
+[pid: 4674|app: 0|req: 6/10] 127.0.0.1 () {52 vars in 921 bytes} [Mon Jul 18 03:38:16 2022] GET /video/wms/ => generated 822 bytes in 423 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 2)
+Not Found: /favicon.ico
+[pid: 4676|app: 0|req: 5/11] 127.0.0.1 () {50 vars in 852 bytes} [Mon Jul 18 03:38:17 2022] GET /favicon.ico => generated 2217 bytes in 181 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 4659|app: 0|req: 1/12] 127.0.0.1 () {46 vars in 693 bytes} [Mon Jul 18 03:38:50 2022] GET /video/wms/ => generated 822 bytes in 765 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 2)
+[pid: 4676|app: 0|req: 6/13] 127.0.0.1 () {50 vars in 902 bytes} [Mon Jul 18 03:39:08 2022] GET /video/wms/ => generated 822 bytes in 120 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 1)
+Mon Jul 18 05:11:35 2022 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 8 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 7 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 6 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 5 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Mon Jul 18 05:11:35 2022 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.20 (64bit) on [Mon Jul 18 14:33:29 2022] ***
+compiled with version: 9.4.0 on 17 July 2022 06:14:02
+os: Linux-5.10.102.1-microsoft-standard-WSL2 #1 SMP Wed Mar 2 00:30:59 UTC 2022
+nodename: lover
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 8
+current working directory: /mnt/d/PROJECT/videotest
+writing pidfile to uwsgi.pid
+detected binary path: /home/emperinter/.local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /mnt/d/PROJECT/videotest
+your processes number limit is 31320
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8000 fd 3
+Python version: 3.8.10 (default, Jun 22 2022, 20:18:18)  [GCC 9.4.0]
+Python main interpreter initialized at 0x55aa93bd7dc0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 3149820 bytes (3075 KB) for 32 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55aa93bd7dc0 pid: 5572 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5572)
+spawned uWSGI worker 1 (pid: 5574, cores: 4)
+spawned uWSGI worker 2 (pid: 5575, cores: 4)
+spawned uWSGI worker 3 (pid: 5578, cores: 4)
+spawned uWSGI worker 4 (pid: 5581, cores: 4)
+spawned uWSGI worker 5 (pid: 5590, cores: 4)
+spawned uWSGI worker 6 (pid: 5591, cores: 4)
+spawned uWSGI worker 7 (pid: 5594, cores: 4)
+spawned uWSGI worker 8 (pid: 5599, cores: 4)
+[pid: 5599|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 921 bytes} [Mon Jul 18 06:34:19 2022] GET /video/wms/ => generated 822 bytes in 125 msecs (HTTP/1.1 200) 5 headers in 166 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 5599|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 852 bytes} [Mon Jul 18 06:34:19 2022] GET /favicon.ico => generated 2217 bytes in 35 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 1)
