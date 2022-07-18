@@ -1,4 +1,0 @@
-127.0.0.1 - - [18/Jul/2022:14:11:35 +0800] "GET /video/wms/ HTTP/1.1" 502 166 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
-127.0.0.1 - - [18/Jul/2022:14:11:35 +0800] "GET /favicon.ico HTTP/1.1" 502 166 "http://127.0.0.1:8000/video/wms/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
-127.0.0.1 - - [18/Jul/2022:14:15:58 +0800] "GET /video/wms/ HTTP/1.1" 502 166 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
-127.0.0.1 - - [18/Jul/2022:14:15:58 +0800] "GET /favicon.ico HTTP/1.1" 502 166 "http://127.0.0.1:81/video/wms/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0"
